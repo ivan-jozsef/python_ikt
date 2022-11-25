@@ -1,0 +1,72 @@
+def bekeresek():
+    foglalas=[]
+    turnus=["reggeli", "déli", "esti"]
+    teremnev =["piros","zöld","sárga"]
+    asztal = [1,2,3,4,5,6,7,8]
+    szek = [1,2,3,4,5,6,7,8,9,10]
+
+    inputnev = input("Kérem adja meg a nevét: ")
+    foglalas.append(inputnev)        
+
+
+    while len(foglalas) < 2:
+        inputturnus = input("Kérem adja meg a turnust reggeli/déli/esti: ")
+        if(turnus.count(inputturnus) > 0):
+            foglalas.append(inputturnus)
+        
+    
+    while len(foglalas) < 3:
+        inputteremnev= input("Kérem adja meg a terem nevét piros/zöld/sárga: ")
+        if(teremnev.count(inputteremnev) > 0):
+            foglalas.append(inputteremnev)    
+        
+    while len(foglalas) < 4:       
+        inputasztal= int(input("Kérem adja meg az asztal számát 1-8: "))
+        if(asztal.count(inputasztal) > 0):
+            foglalas.append(inputasztal)        
+        
+        
+    while len(foglalas) < 5:           
+        inputszek = int(input("Az asztal 10 férőhelyes! Kérem adja meg az szék számát 1-10: "))
+        if(szek.count(inputszek) > 0):
+            foglalas.append(inputszek)
+
+    print(foglalas)
+        
+        
+    
+
+sikeres = False 
+bevitel = False
+
+while sikeres == False:  
+    
+    vendeg = input("Asztalt szeretne foglalni I/N: ")
+
+    if vendeg.lower() == "igen":
+        while bevitel == False:
+            bekeresek()
+            
+            valasz = False
+            while valasz == False:
+                kerdes = input("Szeretnél ujabb foglalást leadni? I/N ")
+                if kerdes.lower() == "nem":
+                    bevitel = True
+                    valasz = True
+                elif kerdes.lower() == "igen":
+                    bevitel = False
+                    valasz = True
+                else:
+                    print("Kérjük igennel vagy nemmel válaszoljon!")
+                                                   
+        sikeres = True
+        
+        
+    elif vendeg.lower() == "nem":
+        print("Köszönjük! Várjuk vissza szeretettel!")
+        sikeres = True
+    else:
+        print("Kérjük igennel vagy nemmel válaszoljon!")
+        sikeres = False
+
+

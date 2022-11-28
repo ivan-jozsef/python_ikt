@@ -1,0 +1,4 @@
+foglalas = int(input("Válasszon helyet: "))
+for fog in etterem:
+   if fog['id'] == foglalas:
+     fog['Foglalt'] = 1

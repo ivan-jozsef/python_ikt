@@ -1,0 +1,5 @@
+print("Ezek a helyek szabadok, válasszon székszámot: ")
+#Kiírja a szabad asztalokat
+for fog in etterem:
+    if fog['Foglalt'] == "o":
+      print(f"Székszám: {fog['id']} Terem: {fog['Terem']}  Asztal: {fog['Asztal']}  Szék: {fog['Szék']}")

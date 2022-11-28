@@ -1,0 +1,15 @@
+
+teremfoglalasokpiros =[]
+with open("teremfoglalasokpiros.txt","r", encoding="utf-8") as befile:
+    for sor in befile:
+        adat=sor.strip() # enter eltávolítása sor végéről
+        teremfoglalasokpiros.append(adat)
+
+vendeg = input("Üdvözlöm! Ön a piros termet választotta! Asztalt szeretne foglalni I/N: ")
+if vendeg.lower() == "igen":
+    asztal = int(input("Kérem adja meg az asztalt, amit foglalni szeretne: "))
+    szek = int(input("Kérem adja meg az széket, amit foglalni szeretne: "))
+    if teremfoglalasokpiros[asztal][szek] == "p":
+        print("Az Ön által válsztott hely a piros termünkben szabad, várjuk szeretettel!")
+    else:
+        print("Sajnáljuk, az Ön által választott hely foglalt! Kérjük válasszon másik helyet!")

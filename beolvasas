@@ -1,0 +1,10 @@
+import csv
+
+adat =[]
+befile = open('etterem.csv', 'r')
+reader = csv.DictReader(befile)
+adat = list()
+for dictionary in reader:
+    adat.append(dictionary)
+
+print(len(adat))

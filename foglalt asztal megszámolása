@@ -1,0 +1,7 @@
+foglaltdbpiros=0
+foglalt = ["E", "R", "D"]
+for allista in teremfoglalasokpiros:
+    for allistaelem in allista:
+        for elem in foglalt:
+            foglaltdbpiros+=allistaelem.count(elem)
+print(foglaltdbpiros)

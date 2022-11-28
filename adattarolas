@@ -1,0 +1,1264 @@
+etterem = []
+#---------------------------- asztal 1 -------------------------------------
+etterem.append({'id': 1,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 2,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 3,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 4,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 5,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 6,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 7,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 8,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 9,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 10,
+                'Terem': 1,
+                'Asztal': 1,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+
+#------------------------- asztal 2 --------------------------------------
+etterem.append({'id': 11,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 12,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 13,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 14,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 15,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 16,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 17,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 18,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 19,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 20,
+                'Terem': 1,
+                'Asztal': 2,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------------- asztal 3 ---------------------------------
+etterem.append({'id': 21,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 22,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 23,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 24,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 25,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 26,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 27,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 28,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 29,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 30,
+                'Terem': 1,
+                'Asztal': 3,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------------------- asztal 4---------------------------------------
+etterem.append({'id': 31,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 32,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 33,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 34,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 35,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 36,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 37,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 38,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 39,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 40,
+                'Terem': 1,
+                'Asztal': 4,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------asztal 5--------------------------------------------
+etterem.append({'id': 41,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 42,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 43,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 44,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 45,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 46,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 47,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 48,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 49,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 50,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#---------------------------------------asztal 6----------------------------------------
+etterem.append({'id': 51,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 52,
+                'Terem':1,
+                'Asztal': 6,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 53,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 54,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 55,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 56,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 57,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 58,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 59,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 60,
+                'Terem': 1,
+                'Asztal': 6,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#--------------------------asztal 7 -------------------------------------
+etterem.append({'id': 61,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 62,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 63,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 64,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 65,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 66,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 67,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 69,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 69,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 70,
+                'Terem': 1,
+                'Asztal': 7,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#-----------------------------------asztal 8--------------------------------------
+etterem.append({'id': 71,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 72,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 73,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 74,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 75,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 76,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 77,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 78,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 79,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 80,
+                'Terem': 1,
+                'Asztal': 8,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+
+#------------------------------terem 2 ---------------------------------------------------
+
+#---------------------------- asztal 1 -------------------------------------
+etterem.append({'id': 81,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 82,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 83,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 84,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 85,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 86,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 87,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 88,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 89,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 90,
+                'Terem': 2,
+                'Asztal': 1,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+
+#------------------------- asztal 2 --------------------------------------
+etterem.append({'id': 91,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 92,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 93,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 94,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 95,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 96,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 97,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 98,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 99,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 100,
+                'Terem': 2,
+                'Asztal': 2,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------------- asztal 3 ---------------------------------
+etterem.append({'id': 101,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 102,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 103,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 104,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 105,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 106,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 107,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 108,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 109,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 110,
+                'Terem': 2,
+                'Asztal': 3,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------------------- asztal 4---------------------------------------
+etterem.append({'id': 111,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 112,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 113,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 114,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 115,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 116,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id':117,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 118,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 119,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 120,
+                'Terem': 2,
+                'Asztal': 4,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------asztal 5--------------------------------------------
+etterem.append({'id': 121,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 122,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 123,
+                'Terem': 1,
+                'Asztal': 5,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 124,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 125,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 126,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 127,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 128,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 129,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 130,
+                'Terem': 2,
+                'Asztal': 5,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#---------------------------------------asztal 6----------------------------------------
+etterem.append({'id': 131,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 132,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 133,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 134,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 135,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 136,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 137,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 138,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 139,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 140,
+                'Terem': 2,
+                'Asztal': 6,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#--------------------------asztal 7 -------------------------------------
+etterem.append({'id': 141,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 142,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 143,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 144,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 145,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 146,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 147,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 148,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 149,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 150,
+                'Terem': 2,
+                'Asztal': 7,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#-----------------------------------asztal 8--------------------------------------
+etterem.append({'id': 151,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 152,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 153,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 154,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 155,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 156,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 157,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 158,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 159,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 160,
+                'Terem': 2,
+                'Asztal': 8,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+
+#------------------------------terem 3 ---------------------------------------------------
+
+#---------------------------- asztal 1 -------------------------------------
+etterem.append({'id': 161,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 162,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 163,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 164,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 165,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 166,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 167,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 168,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 169,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 170,
+                'Terem': 3,
+                'Asztal': 1,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+
+#------------------------- asztal 2 --------------------------------------
+etterem.append({'id': 171,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 172,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 173,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 174,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 175,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 176,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 177,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 178,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 179,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 180,
+                'Terem': 3,
+                'Asztal': 2,
+                'Szék': 181,
+                'Foglalt': "o"})
+
+#------------------------------------- asztal 3 ---------------------------------
+etterem.append({'id': 181,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 182,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 183,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 184,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 185,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 186,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 187,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 188,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 189,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 190,
+                'Terem': 3,
+                'Asztal': 3,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------------------- asztal 4---------------------------------------
+etterem.append({'id': 191,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 192,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 193,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 194,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 195,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 196,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id':197,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 198,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 199,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 200,
+                'Terem': 3,
+                'Asztal': 4,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#------------------------------asztal 5--------------------------------------------
+etterem.append({'id': 201,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 202,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 203,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 204,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 205,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 206,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 207,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 208,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 209,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 210,
+                'Terem': 3,
+                'Asztal': 5,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#---------------------------------------asztal 6----------------------------------------
+etterem.append({'id': 211,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 212,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 213,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 214,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 215,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 216,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 217,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 218,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 219,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 220,
+                'Terem': 3,
+                'Asztal': 6,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#--------------------------asztal 7 -------------------------------------
+etterem.append({'id': 221,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 222,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 223,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 224,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 225,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 226,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 227,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 228,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 229,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 230,
+                'Terem': 3,
+                'Asztal': 7,
+                'Szék': 10,
+                'Foglalt': "o"})
+
+#-----------------------------------asztal 8--------------------------------------
+etterem.append({'id': 231,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 1,
+                'Foglalt': "o"})
+etterem.append({'id': 232,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 2,
+                'Foglalt': "o"})
+etterem.append({'id': 233,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 3,
+                'Foglalt': "o"})
+etterem.append({'id': 234,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 4,
+                'Foglalt': "o"})
+etterem.append({'id': 235,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 5,
+                'Foglalt': "o"})
+etterem.append({'id': 236,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 6,
+                'Foglalt': "o"})
+etterem.append({'id': 237,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 7,
+                'Foglalt': "o"})
+etterem.append({'id': 238,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 8,
+                'Foglalt': "o"})
+etterem.append({'id': 239,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 9,
+                'Foglalt': "o"})
+etterem.append({'id': 240,
+                'Terem': 3,
+                'Asztal': 8,
+                'Szék': 10,
+                'Foglalt': "o"})
+                
+                
+kifile = open('etterem.csv', 'w')
+writer = csv.DictWriter(kifile, fieldnames=['id', 'Terem', 'Asztal', 'Szék', 'Foglalt'])
+writer.writeheader()
+writer.writerows(etterem)
+kifile.close()

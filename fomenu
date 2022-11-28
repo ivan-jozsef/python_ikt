@@ -1,0 +1,21 @@
+def menu():
+   print("Foglalás 1")
+   print("Ellenőrzés 2")
+   print("Kilépés 3")
+
+
+menu()
+
+valasztas = int(input("Válasszon  a menüből!"))
+
+while valasztas != 0:
+#      Foglalási eljárás indítása
+       if valasztas == 1:
+           pass
+       elif valasztas == 2:
+#       Számolási feladat indítása
+           pass
+       else:
+#       Kilépés
+           break
+

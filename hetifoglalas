@@ -1,0 +1,204 @@
+#Heti foglalas 
+
+teremfoglalasokhetipiros =[]
+with open("teremfoglalasokhetipiros.txt","r", encoding="utf-8") as befile:
+    for sor in befile:
+        adat=sor.strip() # enter eltávolítása sor végéről
+        teremfoglalasokhetipiros.append(adat)
+      
+
+teremPH = []
+for i in teremfoglalasokhetipiros:
+    if i[0] == "h":
+        teremPH.append(i)
+    elif i[1] == "h":
+        teremPH.append(i)
+    elif i[2] == "h":
+        teremPH.append(i)
+    elif i[3] == "h":
+        teremPH.append(i)
+    elif i[4] == "h":
+        teremPH.append(i)
+    elif i[5] == "h":
+        teremPH.append(i)
+    elif i[6] == "h":
+        teremPH.append(i)
+    elif i[7] == "h":
+        teremPH.append(i)
+    elif i[8] == "h":
+        teremPH.append(i)
+    elif i[9] == "h":
+        teremP.append(i)  
+
+
+teremPK = []
+for i in teremfoglalasokhetipiros:
+    if i[0] == "k":
+        teremPK.append(i)
+    elif i[1] == "k":
+        teremPK.append(i)
+    elif i[2] == "k":
+        teremPK.append(i)
+    elif i[3] == "k":
+        teremPK.append(i)
+    elif i[4] == "k":
+        teremPK.append(i)
+    elif i[5] == "k":
+        teremPK.append(i)
+    elif i[6] == "k":
+        teremPK.append(i)
+    elif i[7] == "k":
+        teremPK.append(i)
+    elif i[8] == "k":
+        teremPK.append(i)
+    elif i[9] == "k":
+        teremPK.append(i)  
+
+
+teremPS = []
+for i in teremfoglalasokhetipiros:
+    if i[0] == "s":
+        teremPS.append(i)
+    elif i[1] == "s":
+        teremPS.append(i)
+    elif i[2] == "s":
+        teremPS.append(i)
+    elif i[3] == "s":
+        teremPS.append(i)
+    elif i[4] == "s":
+        teremPS.append(i)
+    elif i[5] == "s":
+        teremPS.append(i)
+    elif i[6] == "s":
+        teremPS.append(i)
+    elif i[7] == "s":
+        teremPS.append(i)
+    elif i[8] == "s":
+        teremPS.append(i)
+    elif i[9] == "s":
+        teremPS.append(i)  
+
+
+teremPC = []
+for i in teremfoglalasokhetipiros:
+    if i[0] == "c":
+        teremPC.append(i)
+    elif i[1] == "c":
+        teremPC.append(i)
+    elif i[2] == "c":
+        teremPC.append(i)
+    elif i[3] == "c":
+        teremPC.append(i)
+    elif i[4] == "c":
+        teremPC.append(i)
+    elif i[5] == "c":
+        teremPC.append(i)
+    elif i[6] == "c":
+        teremPC.append(i)
+    elif i[7] == "c":
+        teremPC.append(i)
+    elif i[8] == "c":
+        teremPC.append(i)
+    elif i[9] == "c":
+        teremPC.append(i)  
+
+
+teremPP = []
+for i in teremfoglalasokhetipiros:
+    if i[0] == "p":
+        teremPP.append(i)
+    elif i[1] == "p":
+        teremPP.append(i)
+    elif i[2] == "p":
+        teremPP.append(i)
+    elif i[3] == "p":
+        teremPP.append(i)
+    elif i[4] == "p":
+        teremPP.append(i)
+    elif i[5] == "p":
+        teremPP.append(i)
+    elif i[6] == "p":
+        teremPP.append(i)
+    elif i[7] == "p":
+        teremPP.append(i)
+    elif i[8] == "p":
+        teremPP.append(i)
+    elif i[9] == "P":
+        teremPP.append(i)  
+
+
+vendeg = input("Üdvözlöm a piros teremben! Asztalt szeretne foglalni I/N: ")
+if vendeg.lower() == "igen":
+    nap = input("Melyik napra szeretne asztalt foglalni H/K/S/C/P? ")
+    asztal = int(input("Hányas asztalt szeretné lefoglalni? "))
+    szek = int(input("Kérem adja meg az széket, amit foglalni szeretne: "))
+ 
+    if nap.lower() == "h":
+        if teremPH[asztal][szek] == nap.lower():
+            print("Az Ön által foglalt hely szabad, köszönjük a rendelését!")
+        else:
+            print("Az Ön által választott hely sajnos foglalt, kérjük foglaljon másikat!")
+    if nap.lower() == "k":
+        if teremPK[asztal][szek] == nap.lower():
+           print("Az Ön által foglalt hely szabad, köszönjük a rendelését!")
+        else:
+            print("Az Ön által választott hely sajnos foglalt, kérjük foglaljon másikat!")
+    if nap.lower() == "s":
+        if teremPS[asztal][szek] == nap.lower():
+           print("Az Ön által foglalt hely szabad, köszönjük a rendelését!")
+        else:
+            print("Az Ön által választott hely sajnos foglalt, kérjük foglaljon másikat!")
+    if nap.lower() == "c":
+        if teremPC[asztal][szek] == nap.lower():
+            print("Az Ön által foglalt hely szabad, köszönjük a rendelését!")
+        else:
+            print("Az Ön által választott hely sajnos foglalt, kérjük foglaljon másikat!")
+    if nap.lower() == "p":
+        if teremPP[asztal][szek] == nap.lower():
+            print("Az Ön által foglalt hely szabad, köszönjük a rendelését!")
+        else:
+            print("Az Ön által választott sajnos foglalt, kérjük foglaljon másikat!")
+
+
+
+szabaddbpiros = 0
+szabad = [nap.lower()]
+for allista in teremfoglalasokhetipiros:
+        for elem in szabad:
+            szabaddbpiros+=allista.count(elem)
+        
+print(f"A piros teremben a vendég által foglalt napon {szabaddbpiros} db szabad hely van!")
+
+
+def foglalt(x):
+    maradek = 80-x
+    
+    return maradek
+
+
+print(f"A piros teremben a vendég által foglalt napon {foglalt(szabaddbpiros)} db foglalt hely van!")        
+       
+
+foglaltdbpiros=0
+foglalt = ["E", "R", "D"]
+for allista in teremfoglalasokhetipiros:
+    for allistaelem in allista:
+        for elem in foglalt:
+            foglaltdbpiros+=allistaelem.count(elem)
+print(f"A piros teremben egész héten összesen {foglaltdbpiros} vendég foglalt asztalt!")
+
+def szabadheti(x):
+    maradek = 400-x
+    
+    return maradek
+
+
+print(f"A piros teremben a heti szabad asztalok száma: {szabadheti(foglaltdbpiros)}!")        
+       
+
+
+    
+
+
+
+    

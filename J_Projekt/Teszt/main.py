@@ -1,7 +1,8 @@
 import random
 import os.path
 
-#Előzetes foglalások a hétre random generátorral, meghívással###########################################################
+
+# Előzetes foglalások a hétre random generátorral, meghívással##########################################################
 
 
 def prebooking():
@@ -20,17 +21,17 @@ def prebooking():
 
 
 ########################################################################################################################
-#Főmenü#################################################################################################################
+# Főmenü#################################################################################################################
 
 
 def menu():
-   print("1. Foglalás")
-   print("2. Bevétel ellenőrzés")
-   print("3. Kilépés")
+    print("1. Foglalás")
+    print("2. Bevétel ellenőrzés")
+    print("3. Kilépés")
 
 
 ########################################################################################################################
-#####################################NAPI FOGLALÁS KEZELÉSE#####################################################ANDREA##
+# NAPI FOGLALÁS KEZELÉSE ##################################################################################### ANDREA ##
 
 
 def Fogl():
@@ -39,11 +40,11 @@ def Fogl():
     for elem in foglalasok:
         asztalok.append(elem[terem])
 
-    # print(f"asztalok = {asztalok}")
+    print(f"asztalok = {asztalok}")
     asztalbeker = int(input("Kérem adja meg az asztal számát 1-8: ")) - 1
-    # print(f"asztalok = {asztalok[asztalbeker]}")
+    print(f"asztalok = {asztalok[asztalbeker]}")
     szekbeker = int(input("Kérem adja meg a szék számát 1-10: ")) - 1
-    # print(f"szék = {asztalok[asztalbeker][szekbeker]}")
+    print(f"szék = {asztalok[asztalbeker][szekbeker]}")
     szekek = list(asztalok[asztalbeker])  # székek nevű uj tömböt hoztunk létre
 
     valasz = False
@@ -64,37 +65,59 @@ def Fogl():
 
 
 ########################################################################################################################
-#########################################TEREMFÁJLOK ELŐKÉSZÍTÉSE#######################################################
+# TEREMFÁJLOK ELŐKÉSZÍTÉSE##############################################################################################
 
 
 foglalasok = []
-def listakeszites():
-    elso_sor = forras.readline()
-    tobbi_sor = forras.readlines()
-#     print(tobbi_sor, '\n')#
-    for sor in tobbi_sor:
-#         print(sor)
-        adatok = sor.strip().split("     ")
-        # print("ADATOK: ", adatok)
-        sorok = []
-        for padok in adatok:
-            # print("PADOK: ", padok)
-            sorok.append(padok.replace(' ',''))
-            # print("SOROK: ", sorok)
-            continue
-        foglalasok.append(sorok)
-print(foglalasok)
+
+
+def listakeszites(target_file):
+    with open(target_file, 'r', encoding='utf-8') as forras:
+        elso_sor = forras.readline()
+        tobbi_sor = forras.readlines()
+        #     print(tobbi_sor, '\n')#
+        for sor in tobbi_sor:
+            #         print(sor)
+            adatok = sor.strip().split("     ")
+            # print("ADATOK: ", adatok)
+            sorok = []
+            for padok in adatok:
+                # print("PADOK: ", padok)
+                sorok.append(padok.replace(' ', ''))
+                # print("SOROK: ", sorok)
+                continue
+            foglalasok.append(sorok)
+
+
+# def listakeszites2():
+#     with open('Monday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#         elso_sor = forras.readline()
+#         tobbi_sor = forras.readlines()
+#         #     print(tobbi_sor, '\n')#
+#         for sor in tobbi_sor:
+#             #         print(sor)
+#             adatok = sor.strip().split("     ")
+#             # print("ADATOK: ", adatok)
+#             sorok = []
+#             for padok in adatok:
+#                 # print("PADOK: ", padok)
+#                 sorok.append(padok.replace(' ', ''))
+#                 # print("SOROK: ", sorok)
+#                 continue
+#             foglalasok.append(sorok)
+
+# print(foglalasok)
 ########################################################################################################################
-########################################## LISTÁK VISSZAALAKÍTÁSA ######################################################
+# LISTÁK VISSZAALAKÍTÁSA ###############################################################################################
 
 
-def lista_visszaalakitasa():
-        # with open('Morning.txt', 'w+', encoding="utf-8") as cel:
-        #     print("     ", "TeremA", "                ", "TeremB", "                ", "TeremC", file=cel)
-        #     for sorok in foglalasok:
-        #         for termek in sorok:
-        #             print(sorok, file=cel)
-    with open('Morning.txt', 'w', encoding="utf-8") as cel:
+def lista_visszaalakitasa(target_file):
+    # with open('Morning.txt', 'w+', encoding="utf-8") as cel:
+    #     print("     ", "TeremA", "                ", "TeremB", "                ", "TeremC", file=cel)
+    #     for sorok in foglalasok:
+    #         for termek in sorok:
+    #             print(sorok, file=cel)
+    with open(target_file, 'w', encoding="utf-8") as cel:
         print("     ", "TeremA", "                ", "TeremB", "                ", "TeremC", file=cel)
         for sorok in foglalasok:
             for index, padok in enumerate(sorok):
@@ -105,8 +128,9 @@ def lista_visszaalakitasa():
                 elif index == 2:
                     print(end='\n', file=cel)
 
+
 ########################################################################################################################
-#Létrehozza a hét napjainak megfelelő mappákat (egyszer)################################################################
+# Létrehozza a hét napjainak megfelelő mappákat (egyszer)###############################################################
 
 
 if not os.path.exists('Monday'):
@@ -124,9 +148,8 @@ if not os.path.exists('Saturday'):
 if not os.path.exists('Sunday'):
     os.mkdir('Sunday')
 
-
 ########################################################################################################################
-#A hétfői nap asztalfoglalásai napszakonként elválasztva, fájlba generálás##############################################
+# A hétfői nap asztalfoglalásai napszakonként elválasztva, fájlba generálás#############################################
 
 
 for nap in range(21):
@@ -196,9 +219,8 @@ for nap in range(21):
     else:
         pass
 
-
 ########################################################################################################################
-####################################FŐMENÜ BETÖLTÉSE####################################################################
+# FŐMENÜ BETÖLTÉSE #####################################################################################################
 
 
 menu()
@@ -208,69 +230,61 @@ valasztas = int(input("Válasszon  a menüből!"))
 while valasztas != 3:
     if valasztas == 1:
         valasz = 0
-        nap = int(input("Enter your option: [1. Monday, 2. Tuesday, 3. Wednesday, 4. Thursday, 5. Friday, 6. Saturday, 7. Sunday, 0. Kilépés] "))
+        nap = int(input("Enter your option: [1. Monday, 2. Tuesday, 3. Wednesday, 4. Thursday, 5. Friday, "
+                        "6. Saturday, 7. Sunday, 0. Kilépés] "))
         option = int(input("Enter your option: [1. morning, 2. afternoon, 3. evening, 0. Kilépés] "))
 
         while valasz == 0:
             foglalasok = []
-            with open("Monday/Morning.txt", "r", encoding="utf-8") as file:
-                tartalom = file.read()
-                print(tartalom)
+            print(foglalasok)
             if option == 1 and nap == 1:
+
                 with open("Monday/Morning.txt", "r", encoding="utf-8") as file:
-                    print("Válassza ki a termet, majd a sort, végül pedig a széket, amit foglalni szeretne!")
-                    elsosor = file.readline()
-                    tobbisor = file.readlines()
-                    # print(tartalom)
-                    for sor in tobbisor:
-                        adatok = sor.strip().split("     ")
-                        helyek = []
-                        for szek in adatok:
-                            helyek.append(szek.replace(' ', ''))
-                            continue
-                        foglalasok.append(helyek)
+                    print(file.read())
+                # with open("Monday/Morning.txt", "r", encoding="utf-8") as file:
+                listakeszites('Monday/Morning.txt')
                 # print(foglalasok)
                 valasz = 1
                 Fogl()
-                lista_visszaalakitasa()
-
+                # with open("Monday/Morning.txt", "w", encoding="utf-8") as cel:
+                lista_visszaalakitasa("Monday/Morning.txt")
+                with open("Monday/Morning.txt", "r", encoding="utf-8") as file:
+                    print(file.read())
 
 
             elif option == 2 and nap == 1:
-                with open("Monday/Afternoon.txt", "r", encoding="utf-8") as file:
-                    elsosor = file.readline()
-                    tobbisor = file.readlines()
-                    for sor in tobbisor:
-                        adatok = sor.strip().split("     ")
-                        helyek = []
-                        for szek in adatok:
-                            helyek.append(szek.replace(' ', ''))
-                            continue
-                        foglalasok.append(helyek)
 
+                with open("Monday/Afternoon.txt", "r", encoding="utf-8") as file:
+                    print(file.read())
+                # with open("Monday/Afternoon.txt", "r", encoding="utf-8") as file:
+                listakeszites("Monday/Afternoon.txt")
                 # print(foglalasok)
                 valasz = 1
                 Fogl()
+                # with open("Monday/Afternoon.txt", "w", encoding="utf-8") as cel:
+                lista_visszaalakitasa("Monday/Afternoon.txt")
+                with open("Monday/Afternoon.txt", "r", encoding="utf-8") as file:
+                    print(file.read())
+
 
             elif option == 3 and nap == 1:
                 with open("Monday/Evening.txt", "r", encoding="utf-8") as file:
-                    elsosor = file.readline()
-                    tobbisor = file.readlines()
-                    for sor in tobbisor:
-                        adatok = sor.strip().split("     ")
-                        helyek = []
-                        for szek in adatok:
-                            helyek.append(szek.replace(' ', ''))
-                            continue
-                        foglalasok.append(helyek)
-
-                print(foglalasok)
+                    print(file.read())
+                # with open("Monday/Evening.txt", "r", encoding="utf-8") as file:
+                listakeszites("Monday/Evening.txt")
+                # print(foglalasok)
                 valasz = 1
                 Fogl()
+                # with open("Monday/Evening.txt", "w", encoding="utf-8") as file:
+                lista_visszaalakitasa("Monday/Evening.txt")
+                with open("Monday/Evening.txt", "r", encoding="utf-8") as file:
+                    print(file.read())
+
 
             else:
                 print("Invalid Option")
-                option = int(input("Enter your option: [1. Monday morning, 2. Monday afternoon, 3. Monday evening,  0. Kilépés] "))
+                option = int(input(
+                    "Enter your option: [1. Monday morning, 2. Monday afternoon, 3. Monday evening,  0. Kilépés] "))
 
     elif valasztas == 2:
         pass
@@ -281,16 +295,71 @@ while valasztas != 3:
 
 print("Kilépett a programból!")
 
+########################################################################################################################
+# TEREMFÁJLOK ELŐKÉSZÍTÉSE##############################################################################################
+
+
+# with open('Monday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Monday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Monday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Tuesday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Tuesday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Tuesday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Wednesday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Wednesday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Wednesday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Thursday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Thursday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Thursday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Friday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Friday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Friday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Saturday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Saturday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Saturday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Sunday/Morning.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Sunday/Afternoon.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
+#
+# with open('Sunday/Evening.txt', 'r', encoding='utf-8') as forras:
+#     listakeszites()
 
 ########################################################################################################################
-##########################################TEREMFÁJLOK ELŐKÉSZÍTÉSE######################################################
-
-
-with open('Monday/Morning.txt', 'r', encoding='utf-8') as forras:
-    listakeszites()
-print(foglalasok)
-
-########################################################################################################################
-
-
-

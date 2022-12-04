@@ -41,7 +41,7 @@ while valasz == 0:
     foglalasok = []
     if option == 1 and nap == 1:
         
-        with open("Monday_morning.txt", "r", encoding="utf-8") as file:
+        with open("Morning.txt", "r", encoding="utf-8") as file:
             elsosor = file.readline()
             tobbisor = file.readlines()
             for sor in tobbisor:
@@ -52,7 +52,7 @@ while valasz == 0:
                     continue
                 foglalasok.append(helyek)
         
-        #print(foglalasok)
+        print(foglalasok)
         valasz = 1
         Fogl()
            
